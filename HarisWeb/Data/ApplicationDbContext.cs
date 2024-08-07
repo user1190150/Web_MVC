@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HarisWeb.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace HarisWeb.Data
@@ -9,5 +10,8 @@ namespace HarisWeb.Data
         {
             
         }
+
+        //Table that will be created in DB... now we need to add-migration 
+        public DbSet<Category> Categories { get; set; }
     }
 }
