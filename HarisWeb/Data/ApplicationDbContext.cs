@@ -3,6 +3,20 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace HarisWeb.Data
+/* ApplicationDbContext : DbContext ist eine Klasse, die den Zugriff auf die Datenbank
+ * in einer ASP.NET Core-Anwendung ermöglicht.
+ * ApplicationDbContext: Deine benutzerdefinierte Klasse, die von DbContext erbt und die
+ * Datenbankzugriffslogik kapselt.
+ * DbContext: Eine Basisklasse von Entity Framework Core, die für die Kommunikation mit der Datenbank
+ * zuständig ist.
+ * Hauptfunktionen:
+ * Definiert Datenbanktabellen: DbSet<TEntity>-Eigenschaften 
+ * (z.B. public DbSet<Category> Categories { get; set; }) repräsentieren Tabellen in der Datenbank.
+ * Konfiguriert das Datenmodell: Die Methode OnModelCreating wird verwendet, um das Datenmodell und 
+ * die Datenbankstruktur anzupassen (z.B. Beziehungen und Seed-Daten).
+ * Verwaltet Datenbankoperationen: Ermöglicht Abfragen, Einfügungen, Aktualisierungen und Löschungen 
+ * von Daten.
+ */
 {
     public class ApplicationDbContext : DbContext
     {
@@ -32,5 +46,23 @@ namespace HarisWeb.Data
          */
         public DbSet<Category> Categories { get; set; }
 
+        /* OnModelCreating ist eine Methode zur Konfiguration des Datenmodells in 
+         * Entity Framework Core.
+         * modelBuilder: Erlaubt detaillierte Anpassungen für Entitäten, Beziehungen und
+         * Datenbankstrukturen.
+         */
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            /* Die angegebenen Daten werden automatisch in die Tabelle eingefügt,
+             * wenn die Datenbank erstellt oder aktualisiert wird. Dies ist nützlich, 
+             * um sicherzustellen, dass bestimmte Grunddaten vorhanden sind, wenn die Anwendung 
+             * zum ersten Mal gestartet wird.
+             */
+            modelBuilder.Entity<Category>().HasData(
+                new Category { Id = 1, Name = "Sport", DisplayOrder = 1 },
+                new Category { Id = 2, Name = "Enduro", DisplayOrder = 1 },
+                new Category { Id = 3, Name = "Tourer", DisplayOrder = 1 }
+                );
+        }
     }
 }
