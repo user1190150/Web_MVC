@@ -1,5 +1,17 @@
-﻿<h1>Category List</h1>
+﻿<!--Um Zugriff auf die Liste aus dem CategoryController zu bekommen muessen wir
+    hier im index.cshtml das model mit dem typ kennzeichnen also in dem Fall List<Category>.
+    In anderen Worten wir sagen hier welches model unser View übergeben kriegt also in dem
+    Fall ein model vom typ List<Category>
+
+    Dieser Ausdruck definiert das Modell, das an die View übergeben wird.
+    Hier handelt es sich um eine Liste von Category-Objekten.
+-->
+@model List<Category>
+
+
+<h1>Category List</h1>
 <table class="table tabletable-bordered table-striped">
+    <thead>
     <tr>
         <th>
             Category Name
@@ -8,4 +20,20 @@
             Display Order
         </th>
     </tr>
+    </thead>
+    <tbody>
+        <!--Model mit großem M: Dies ist der standardisierte Zugriff auf das Modell,
+            das an die View übergeben wurde. Es entspricht der Liste von Category-Objekten,
+            die der Controller an die View übergibt. 
+            obj.Name und obj.DisplayOrder: Diese greifen auf die spezifischen Eigenschaften
+            (Name, DisplayOrder) jedes Category-Objekts in der Liste zu, damit sie in der View
+            angezeigt werden können.-->
+        @foreach(var obj in Model)
+        {
+        <tr>
+            <td>@obj.Name</td>
+            <td>@obj.DisplayOrder</td>
+        </tr>
+        }
+    </tbody>
 </table>

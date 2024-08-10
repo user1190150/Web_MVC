@@ -41,9 +41,10 @@ namespace HarisWeb.Controllers
          * Categories-Tabelle aus der Datenbank abruft und in objCategoryList speichert.
          */
         public IActionResult Index()
-        {
+        {   
+            //Die Liste übergeben wir in View um Zugriff in Views/Category/Index.cshtml zu erhalten.
             List<Category> objCategoryList = _db.Categories.ToList();
-            return View();
+            return View(objCategoryList);
         }
     }
 }
