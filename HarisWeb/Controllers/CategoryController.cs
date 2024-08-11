@@ -57,5 +57,39 @@ namespace HarisWeb.Controllers
         {
             return View();
         }
+
+        /* [HttpPost]: Diese Annotation gibt an, dass die Methode nur auf HTTP-POST-Anfragen reagiert.
+         * Es ist typisch für Aktionen, die Daten von einem Formular empfangen und verarbeiten sollen.
+         * In dem Fall das erstellen einer Category in der Webanwendung.
+         * Create(Category obj) nimmt ein Category-Objekt als Parameter entgegen. 
+         * Dieses Objekt wird normalerweise durch die Datenbindung des von einem Formular 
+         * gesendeten Werts befüllt.
+         */
+        [HttpPost]
+        public IActionResult Create(Category obj)
+        {
+            /* _db: Dies ist eine Instanz deines Datenbankkontexts vom Typ ApplicationDbContext
+             * Categories: Eine DbSet<Category>-Eigenschaft innerhalb deines Datenbankkontexts,
+             * die die Tabelle Categories in der Datenbank repräsentiert.
+             * Add(obj): Diese Methode fügt das übergebene Category-Objekt zur Categories-Collection 
+             * im Datenbankkontext hinzu. Das Objekt wird dadurch für eine spätere Speicherung in der 
+             * Datenbank vorgemerkt.
+             */
+            _db.Categories.Add(obj);
+            /* Diese Methode speichert alle Änderungen, die im Kontext vorgenommen wurden,
+             * dauerhaft in der Datenbank. In diesem Fall wird das neue Category-Objekt tatsächlich
+             * in die Datenbank eingefügt.
+             */
+            _db.SaveChanges();
+
+            /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
+             * "Index"-Aktion innerhalb desselben Controllers weiter. Index könnte eine Methode sein,
+             * die eine Liste aller Kategorien anzeigt.
+             * Diese Umleitung sorgt dafür, dass der Benutzer nach dem Erstellen einer neuen Kategorie
+             * nicht auf der selben Seite bleibt, sondern zur Übersicht aller Kategorien 
+             * (oder einer anderen Zielseite) geleitet wird.
+             */
+            return RedirectToAction("Index");
+        }
     }
 }
