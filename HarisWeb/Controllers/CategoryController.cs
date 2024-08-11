@@ -46,5 +46,16 @@ namespace HarisWeb.Controllers
             List<Category> objCategoryList = _db.Categories.ToList();
             return View(objCategoryList);
         }
+
+        /* Creating Method to be invoked when we click on Create New Category.
+         * This Method will be Invoked when we click in Category/Index.cshtml on Create New Category
+         * In Index.cshtml we will use a TagHelper to bind the button with this Method so we will 
+         * write in Index.cshtml on line 18 <a asp-action="Action"> This will tell the Program that 
+         * needs to invoke this Method and return a View in this case the Create.cshtml
+         */
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

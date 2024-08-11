@@ -15,7 +15,10 @@
             <h2 class="text-primary">Category List</h2>
         </div>
         <div class="col-6 text-end">
-            <a asp-controller="" asp-action="" class="btn btn-primary">
+            <!--When we click the Button it will look in the Category Controller and find the IActionResult
+                Method and it will return the View Create.cshtml
+            -->
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
                 <i class="bi bi-plus-circle"></i> Create New Category
             </a>
         </div>
