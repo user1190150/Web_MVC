@@ -5,12 +5,15 @@
         <h2 class="text-primary">Create Category</h2>
     </div>
     <div class="mb-3 row p-1">
-        <label class="p-0">Category Name</label>
-        <input type="text" class="form-control" />
+        <!--While we'r using asp-for we dont even need the name for label, it will actualy
+            get the name from the names Property in Category Model-->
+        <label asp-for="Name" class="p-0"></label>
+        <!--With asp-for we bind the Propertie in Category with the Input field-->
+        <input asp-for="Name" class="form-control" />
     </div>
     <div class="mb-3 row p-1">
-        <label class="p-0">Category Name</label>
-        <input type="text" class="form-control" />
+        <label asp-for="DisplayOrder" class="p-0"></label>
+        <input asp-for="DisplayOrder" class="form-control" />
     </div>
 
     <div class="row">
