@@ -68,6 +68,8 @@ namespace HarisWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
+            if (ModelState.IsValid) 
+            { 
             /* _db: Dies ist eine Instanz deines Datenbankkontexts vom Typ ApplicationDbContext
              * Categories: Eine DbSet<Category>-Eigenschaft innerhalb deines Datenbankkontexts,
              * die die Tabelle Categories in der Datenbank repräsentiert.
@@ -82,14 +84,16 @@ namespace HarisWeb.Controllers
              */
             _db.SaveChanges();
 
-            /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
-             * "Index"-Aktion innerhalb desselben Controllers weiter. Index könnte eine Methode sein,
-             * die eine Liste aller Kategorien anzeigt.
-             * Diese Umleitung sorgt dafür, dass der Benutzer nach dem Erstellen einer neuen Kategorie
-             * nicht auf der selben Seite bleibt, sondern zur Übersicht aller Kategorien 
-             * (oder einer anderen Zielseite) geleitet wird.
-             */
-            return RedirectToAction("Index");
+                /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
+            * "Index"-Aktion innerhalb desselben Controllers weiter. Index könnte eine Methode sein,
+            * die eine Liste aller Kategorien anzeigt.
+            * Diese Umleitung sorgt dafür, dass der Benutzer nach dem Erstellen einer neuen Kategorie
+            * nicht auf der selben Seite bleibt, sondern zur Übersicht aller Kategorien 
+            * (oder einer anderen Zielseite) geleitet wird.
+            */
+                return RedirectToAction("Index");
+            }
+            return View();
         }
     }
 }
