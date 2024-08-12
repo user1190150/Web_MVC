@@ -74,12 +74,6 @@ namespace HarisWeb.Controllers
             {
                 ModelState.AddModelError("Name", "The Display Order cannot exactly match the Name.");
             }
-            //if(obj.Name.ToLower() == "test")
-            //{
-            //    ModelState.AddModelError("", "Test is an invalid value.");
-            //}
-
-
             //Validation
             if (ModelState.IsValid) 
             { 
@@ -96,15 +90,15 @@ namespace HarisWeb.Controllers
              * in die Datenbank eingefügt.
              */
             _db.SaveChanges();
-
-                /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
+            TempData["success"] = "Category created successfully";
+            /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
             * "Index"-Aktion innerhalb desselben Controllers weiter. Index könnte eine Methode sein,
             * die eine Liste aller Kategorien anzeigt.
             * Diese Umleitung sorgt dafür, dass der Benutzer nach dem Erstellen einer neuen Kategorie
             * nicht auf der selben Seite bleibt, sondern zur Übersicht aller Kategorien 
             * (oder einer anderen Zielseite) geleitet wird.
             */
-                return RedirectToAction("Index");
+            return RedirectToAction("Index");
             }
             return View();
         }
@@ -131,6 +125,7 @@ namespace HarisWeb.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
             }
 
@@ -165,6 +160,7 @@ namespace HarisWeb.Controllers
             //Now we remove the Category and save the Changes
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Category deleted successfully";
             //Then Redirect to Index View to load the Categorie List again
             return RedirectToAction("Index");
         }

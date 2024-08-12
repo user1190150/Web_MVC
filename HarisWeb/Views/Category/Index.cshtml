@@ -7,7 +7,10 @@
     Hier handelt es sich um eine Liste von Category-Objekten.
 -->
 @model List<Category>
-
+@if(TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+}
 
 <div class="container">
     <div class="row pt-4">
