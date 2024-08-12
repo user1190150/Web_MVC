@@ -68,6 +68,11 @@ namespace HarisWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
+            //Custom Validation
+            if(obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("Name", "The Display Order cannot exactly match the Name.");
+            }
             if (ModelState.IsValid) 
             { 
             /* _db: Dies ist eine Instanz deines Datenbankkontexts vom Typ ApplicationDbContext
