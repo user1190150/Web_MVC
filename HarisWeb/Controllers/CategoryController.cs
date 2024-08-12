@@ -47,6 +47,7 @@ namespace HarisWeb.Controllers
             return View(objCategoryList);
         }
 
+        //CREATE
         /* Creating Method to be invoked when we click on Create New Category.
          * This Method will be Invoked when we click in Category/Index.cshtml on Create New Category
          * In Index.cshtml we will use a TagHelper to bind the button with this Method so we will 
@@ -108,6 +109,7 @@ namespace HarisWeb.Controllers
             return View();
         }
 
+        //EDIT
         public IActionResult Edit(int? id)
         {
             if(id == null || id == 0)
@@ -133,6 +135,38 @@ namespace HarisWeb.Controllers
             }
 
             return View();
+        }
+
+        //DELETE
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            Category? categoryFromDb = _db.Categories.Find(id);
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryFromDb);
+        }
+
+        //With ActionName("Delete") we say that even the Methods name ist DeletePOST, the Action is Delete 
+        [HttpPost,ActionName("Delete")]
+        public IActionResult DeletePOST(int? id)
+        {
+            //When we want to Delete we first need to find that Category from Database
+            Category? obj = _db.Categories.Find(id);
+            if(obj == null)
+            {
+                return NotFound();
+            }
+            //Now we remove the Category and save the Changes
+            _db.Categories.Remove(obj);
+            _db.SaveChanges();
+            //Then Redirect to Index View to load the Categorie List again
+            return RedirectToAction("Index");
         }
     }
 }
