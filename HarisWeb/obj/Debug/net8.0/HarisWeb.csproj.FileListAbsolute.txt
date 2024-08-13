@@ -166,3 +166,7 @@ C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\runtimes\win\lib\net
 C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\besir\source\repos\Haris\HarisWeb\obj\Debug\net8.0\HarisWeb.csproj.AssemblyReference.cache
 C:\Users\besir\source\repos\Haris\HarisWeb\obj\Debug\net8.0\HarisWeb.csproj.Up2Date
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\Haris.DataAccess.dll
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\Haris.Models.dll
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\Haris.DataAccess.pdb
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\Haris.Models.pdb

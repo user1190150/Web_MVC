@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace HarisWeb.Migrations
+namespace Haris.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration

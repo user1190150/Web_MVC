@@ -1,4 +1,4 @@
-namespace HarisWeb.Models
+namespace Haris.Models
 {
     public class ErrorViewModel
     {

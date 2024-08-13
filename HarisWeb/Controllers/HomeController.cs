@@ -1,4 +1,4 @@
-using HarisWeb.Models;
+using Haris.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

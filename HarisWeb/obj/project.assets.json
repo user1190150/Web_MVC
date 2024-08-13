@@ -1580,6 +1580,31 @@
             "rid": "win"
           }
         }
+      },
+      "Haris.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Haris.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0-preview.6.24327.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4"
+        },
+        "compile": {
+          "bin/placeholder/Haris.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Haris.DataAccess.dll": {}
+        }
+      },
+      "Haris.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Haris.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Haris.Models.dll": {}
+        }
       }
     }
   },
@@ -4698,10 +4723,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Haris.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Haris.DataAccess/Haris.DataAccess.csproj",
+      "msbuildProject": "../Haris.DataAccess/Haris.DataAccess.csproj"
+    },
+    "Haris.Models/1.0.0": {
+      "type": "project",
+      "path": "../Haris.Models/Haris.Models.csproj",
+      "msbuildProject": "../Haris.Models/Haris.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Haris.DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0-preview.6.24327.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0-preview.6.24327.4",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0-preview.6.24327.4"
@@ -4739,7 +4775,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\besir\\source\\repos\\Haris\\Haris.DataAccess\\Haris.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\besir\\source\\repos\\Haris\\Haris.DataAccess\\Haris.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

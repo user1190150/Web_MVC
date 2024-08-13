@@ -1,8 +1,7 @@
-﻿using HarisWeb.Models;
+﻿using Haris.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
 
-namespace HarisWeb.Data
+namespace Haris.DataAccess.Data
 /* ApplicationDbContext : DbContext ist eine Klasse, die den Zugriff auf die Datenbank
  * in einer ASP.NET Core-Anwendung ermöglicht.
  * ApplicationDbContext: Deine benutzerdefinierte Klasse, die von DbContext erbt und die

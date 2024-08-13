@@ -1,4 +1,4 @@
-using HarisWeb.Data;
+using Haris.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,5 +1,5 @@
-﻿using HarisWeb.Data;
-using HarisWeb.Models;
+﻿using Haris.Models;
+using Haris.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HarisWeb.Controllers
