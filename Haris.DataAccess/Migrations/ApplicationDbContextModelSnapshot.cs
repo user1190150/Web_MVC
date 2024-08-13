@@ -21,7 +21,7 @@ namespace Haris.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("HarisWeb.Models.Category", b =>
+            modelBuilder.Entity("Haris.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -34,7 +34,8 @@ namespace Haris.DataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Id");
 
@@ -44,20 +45,20 @@ namespace Haris.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            DisplayOrder = 1,
-                            Name = "Sport"
+                            DisplayOrder = 2,
+                            Name = "KTM 1190 Adventure S"
                         },
                         new
                         {
                             Id = 2,
                             DisplayOrder = 1,
-                            Name = "Enduro"
+                            Name = "BMW R 1200 GS Adventure"
                         },
                         new
                         {
                             Id = 3,
-                            DisplayOrder = 1,
-                            Name = "Tourer"
+                            DisplayOrder = 3,
+                            Name = "Honda Africa Twin 1100"
                         });
                 });
 #pragma warning restore 612, 618

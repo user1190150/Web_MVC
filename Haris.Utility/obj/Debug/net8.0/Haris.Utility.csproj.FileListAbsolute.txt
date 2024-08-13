@@ -1,0 +1,12 @@
+C:\Users\besir\source\repos\Haris\Haris.Utility\bin\Debug\net8.0\Haris.Utility.deps.json
+C:\Users\besir\source\repos\Haris\Haris.Utility\bin\Debug\net8.0\Haris.Utility.dll
+C:\Users\besir\source\repos\Haris\Haris.Utility\bin\Debug\net8.0\Haris.Utility.pdb
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.AssemblyInfoInputs.cache
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.AssemblyInfo.cs
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.csproj.CoreCompileInputs.cache
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.sourcelink.json
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.dll
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\refint\Haris.Utility.dll
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.pdb
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\ref\Haris.Utility.dll
