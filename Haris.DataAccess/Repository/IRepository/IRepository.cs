@@ -17,7 +17,7 @@ namespace Haris.DataAccess.Repository.IRepository
      * wie GetAll(), um alle Einträge zu holen, oder Add(), um einen neuen Eintrag hinzuzufügen.
      * Dadurch bleibt dein Code flexibler und wiederverwendbar.
      */
-    internal interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         //T - Category
         IEnumerable<T> GetAll();

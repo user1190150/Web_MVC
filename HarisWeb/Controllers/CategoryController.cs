@@ -1,35 +1,17 @@
 ﻿using Haris.Models;
 using Haris.DataAccess.Data;
+using Haris.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HarisWeb.Controllers
 {
-    /* Klasse CategoryController: Diese Klasse erbt von der Controller-Basisklasse
-     * und ist für die Bearbeitung von HTTP-Anfragen zuständig.
-     */
     public class CategoryController : Controller
-    {
-        /* Das Feld private readonly ApplicationDbContext _db; wird dazu verwendet,
-         * den Datenbankkontext (ApplicationDbContext) in der gesamten Controller-Klasse
-         * zugänglich zu machen.Warum? Datenzugriff: Der ApplicationDbContext stellt Methoden bereit,
-         * um auf die Datenbank zuzugreifen, Abfragen auszuführen und Änderungen zu speichern. 
-         * Dependency Injection: ASP.NET Core nutzt Dependency Injection, um Instanzen von
-         * Abhängigkeiten (wie ApplicationDbContext) in den Controller zu injizieren. Dadurch kann
-         * der Controller auf die Datenbank zugreifen, ohne direkt eine neue Instanz des
-         * Datenbankkontexts erstellen zu müssen. In der Methode Index wird dieses Feld verwendet,
-         * um auf die Categories-Tabelle in der Datenbank zuzugreifen und die Kategorien als 
-         * Liste abzurufen. Das Feld _db ermöglicht es also, den Datenbankkontext innerhalb des 
-         * Controllers wiederzuverwenden, was den Code sauberer und effizienter macht.
-         */
-        private readonly ApplicationDbContext _db;
-        /* Der Konstruktor akzeptiert eine Instanz der Klasse ApplicationDbContext,
-         * die für den Zugriff auf die Datenbank verwendet wird, und weist sie dem privaten
-         * Feld _db zu. ApplicationDbContext ist typischerweise eine Klasse, die den
-         * Datenbankkontext darstellt und für das Entity Framework genutzt wird.
-         */
-        public CategoryController(ApplicationDbContext db) 
+    {       
+        private readonly ICategoryRepository _categoryRepo;
+        
+        public CategoryController(ICategoryRepository db) 
         {
-            _db = db;
+            _categoryRepo = db;
         }
         /* Der Code innerhalb der Index-Methode führt eine Abfolge von Schritten durch,
          * die in ASP.NET Core MVC für die Verarbeitung einer HTTP-Anfrage typisch sind.
@@ -43,7 +25,7 @@ namespace HarisWeb.Controllers
         public IActionResult Index()
         {   
             //Die Liste übergeben wir in View um Zugriff in Views/Category/Index.cshtml zu erhalten.
-            List<Category> objCategoryList = _db.Categories.ToList();
+            List<Category> objCategoryList = _categoryRepo.GetAll().ToList();
             return View(objCategoryList);
         }
 
@@ -77,19 +59,10 @@ namespace HarisWeb.Controllers
             //Validation
             if (ModelState.IsValid) 
             { 
-            /* _db: Dies ist eine Instanz deines Datenbankkontexts vom Typ ApplicationDbContext
-             * Categories: Eine DbSet<Category>-Eigenschaft innerhalb deines Datenbankkontexts,
-             * die die Tabelle Categories in der Datenbank repräsentiert.
-             * Add(obj): Diese Methode fügt das übergebene Category-Objekt zur Categories-Collection 
-             * im Datenbankkontext hinzu. Das Objekt wird dadurch für eine spätere Speicherung in der 
-             * Datenbank vorgemerkt.
-             */
-            _db.Categories.Add(obj);
-            /* Diese Methode speichert alle Änderungen, die im Kontext vorgenommen wurden,
-             * dauerhaft in der Datenbank. In diesem Fall wird das neue Category-Objekt tatsächlich
-             * in die Datenbank eingefügt.
-             */
-            _db.SaveChanges();
+  
+            _categoryRepo.Add(obj);
+            _categoryRepo.Save();
+
             TempData["success"] = "Category created successfully";
             /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
             * "Index"-Aktion innerhalb desselben Controllers weiter. Index könnte eine Methode sein,
@@ -109,8 +82,8 @@ namespace HarisWeb.Controllers
             if(id == null || id == 0)
             {
                 return NotFound();
-            }           
-            Category? categoryFromDb = _db.Categories.Find(id);
+            }
+            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -123,8 +96,8 @@ namespace HarisWeb.Controllers
         {
             if(ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _categoryRepo.Update(obj);
+                _categoryRepo.Save();
                 TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
             }
@@ -139,7 +112,7 @@ namespace HarisWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _db.Categories.Find(id);
+            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -152,14 +125,14 @@ namespace HarisWeb.Controllers
         public IActionResult DeletePOST(int? id)
         {
             //When we want to Delete we first need to find that Category from Database
-            Category? obj = _db.Categories.Find(id);
+            Category? obj = _categoryRepo.Get(u => u.Id == id);
             if(obj == null)
             {
                 return NotFound();
             }
             //Now we remove the Category and save the Changes
-            _db.Categories.Remove(obj);
-            _db.SaveChanges();
+            _categoryRepo.Remove(obj);
+            _categoryRepo.Save();
             TempData["success"] = "Category deleted successfully";
             //Then Redirect to Index View to load the Categorie List again
             return RedirectToAction("Index");
