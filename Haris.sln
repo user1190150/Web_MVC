@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarisWeb", "HarisWeb\HarisWeb.csproj", "{AB5C63DD-B5F9-4B55-9903-D4216B503E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarisWeb", "HarisWeb\HarisWeb.csproj", "{AB5C63DD-B5F9-4B55-9903-D4216B503E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haris.DataAccess", "Haris.DataAccess\Haris.DataAccess.csproj", "{2D3FF8FF-27C6-40BD-B075-6843C2179AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haris.Models", "Haris.Models\Haris.Models.csproj", "{65D1FC98-5D3B-4C23-ADEC-E7870F54CBCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haris.Utility", "Haris.Utility\Haris.Utility.csproj", "{6EC92FD5-1445-478C-B933-9229C04A6075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{AB5C63DD-B5F9-4B55-9903-D4216B503E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB5C63DD-B5F9-4B55-9903-D4216B503E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB5C63DD-B5F9-4B55-9903-D4216B503E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3FF8FF-27C6-40BD-B075-6843C2179AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3FF8FF-27C6-40BD-B075-6843C2179AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3FF8FF-27C6-40BD-B075-6843C2179AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3FF8FF-27C6-40BD-B075-6843C2179AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D1FC98-5D3B-4C23-ADEC-E7870F54CBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D1FC98-5D3B-4C23-ADEC-E7870F54CBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D1FC98-5D3B-4C23-ADEC-E7870F54CBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D1FC98-5D3B-4C23-ADEC-E7870F54CBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC92FD5-1445-478C-B933-9229C04A6075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC92FD5-1445-478C-B933-9229C04A6075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC92FD5-1445-478C-B933-9229C04A6075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC92FD5-1445-478C-B933-9229C04A6075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
