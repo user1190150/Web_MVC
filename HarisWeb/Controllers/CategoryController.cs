@@ -7,11 +7,11 @@ namespace HarisWeb.Controllers
 {
     public class CategoryController : Controller
     {       
-        private readonly ICategoryRepository _categoryRepo;
+        private readonly IUnitOfWork _unitOfWork;
         
-        public CategoryController(ICategoryRepository db) 
+        public CategoryController(IUnitOfWork unitOfWork) 
         {
-            _categoryRepo = db;
+            _unitOfWork = unitOfWork;
         }
         /* Der Code innerhalb der Index-Methode führt eine Abfolge von Schritten durch,
          * die in ASP.NET Core MVC für die Verarbeitung einer HTTP-Anfrage typisch sind.
@@ -25,7 +25,7 @@ namespace HarisWeb.Controllers
         public IActionResult Index()
         {   
             //Die Liste übergeben wir in View um Zugriff in Views/Category/Index.cshtml zu erhalten.
-            List<Category> objCategoryList = _categoryRepo.GetAll().ToList();
+            List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
             return View(objCategoryList);
         }
 
@@ -58,10 +58,10 @@ namespace HarisWeb.Controllers
             }
             //Validation
             if (ModelState.IsValid) 
-            { 
-  
-            _categoryRepo.Add(obj);
-            _categoryRepo.Save();
+            {
+
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
 
             TempData["success"] = "Category created successfully";
             /* RedirectToAction("Index"): Nach dem Speichern leitet diese Methode den Benutzer zur
@@ -83,7 +83,7 @@ namespace HarisWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
+            Category? categoryFromDb = _unitOfWork.Category.Get(u=>u.Id==id);
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -96,8 +96,8 @@ namespace HarisWeb.Controllers
         {
             if(ModelState.IsValid)
             {
-                _categoryRepo.Update(obj);
-                _categoryRepo.Save();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
             }
@@ -112,7 +112,7 @@ namespace HarisWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
+            Category? categoryFromDb = _unitOfWork.Category.Get(u=>u.Id==id);
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -125,14 +125,14 @@ namespace HarisWeb.Controllers
         public IActionResult DeletePOST(int? id)
         {
             //When we want to Delete we first need to find that Category from Database
-            Category? obj = _categoryRepo.Get(u => u.Id == id);
+            Category? obj = _unitOfWork.Category.Get(u => u.Id == id);
             if(obj == null)
             {
                 return NotFound();
             }
             //Now we remove the Category and save the Changes
-            _categoryRepo.Remove(obj);
-            _categoryRepo.Save();
+            _unitOfWork.Category.Remove(obj);
+            _unitOfWork.Save();
             TempData["success"] = "Category deleted successfully";
             //Then Redirect to Index View to load the Categorie List again
             return RedirectToAction("Index");

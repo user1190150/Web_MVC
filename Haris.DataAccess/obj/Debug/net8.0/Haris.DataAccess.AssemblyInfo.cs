@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Haris.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64143e9a03cc83bbbf33050065bb587332c63b85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+309017a572cd1cb8a31618e16090fcecee606880")]
 [assembly: System.Reflection.AssemblyProductAttribute("Haris.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Haris.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
