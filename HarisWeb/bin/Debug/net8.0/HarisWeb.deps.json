@@ -991,12 +991,18 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4"
         },
         "runtime": {
-          "Haris.DataAccess.dll": {}
+          "Haris.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Haris.Models/1.0.0": {
         "runtime": {
-          "Haris.Models.dll": {}
+          "Haris.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
