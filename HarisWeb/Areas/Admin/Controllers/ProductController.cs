@@ -19,7 +19,12 @@ namespace HarisWeb.Areas.Admin.Controllers
         public IActionResult Index()
         {
             List<Product> objProductList = _unitOfWork.Product.GetAll().ToList();
+            return View(objProductList);
+        }
 
+        //CREATE
+        public IActionResult Create()
+        {
             //Projection in EF
             IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll()
                 .Select(u => new SelectListItem
@@ -28,12 +33,10 @@ namespace HarisWeb.Areas.Admin.Controllers
                     Value = u.Id.ToString()
                 });
 
-            return View(objProductList);
-        }
+            //ViewBag - the name CategoryList will act like a Key-Value.
+            //We will use the ViewBag in Create View.
+            ViewBag.CategoryList = CategoryList;
 
-        //CREATE
-        public IActionResult Create()
-        {
             return View();
         }
 
