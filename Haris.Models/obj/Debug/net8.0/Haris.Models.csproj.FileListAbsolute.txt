@@ -10,3 +10,4 @@ C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\Haris.Models.dll
 C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\refint\Haris.Models.dll
 C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\Haris.Models.pdb
 C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\ref\Haris.Models.dll
+C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\Haris.Models.csproj.AssemblyReference.cache

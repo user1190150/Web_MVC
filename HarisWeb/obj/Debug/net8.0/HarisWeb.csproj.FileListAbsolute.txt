@@ -287,3 +287,7 @@ C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\ru\Microsoft.CodeAna
 C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\besir\source\repos\Haris\HarisWeb\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\besir\source\repos\Haris\HarisWeb\obj\Debug\net8.0\HarisWeb.MvcApplicationPartsAssemblyInfo.cs
