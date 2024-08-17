@@ -3,6 +3,7 @@ using Haris.DataAccess.Data;
 using Haris.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HarisWeb.Areas.Admin.Controllers
 {
@@ -18,6 +19,15 @@ namespace HarisWeb.Areas.Admin.Controllers
         public IActionResult Index()
         {
             List<Product> objProductList = _unitOfWork.Product.GetAll().ToList();
+
+            //Projection in EF
+            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll()
+                .Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+
             return View(objProductList);
         }
 
