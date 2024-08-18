@@ -24,7 +24,7 @@ namespace HarisWeb.Areas.Admin.Controllers
         }
 
         //CREATE
-        public IActionResult Create()
+        public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new()
             {
@@ -36,59 +36,67 @@ namespace HarisWeb.Areas.Admin.Controllers
                 }),
                 Product = new Product()
             };
-
-            return View(productVM);
+            if(id == null || id == 0)
+            {
+                return View(productVM);
+            }
+            else
+            {
+                productVM.Product = _unitOfWork.Product.Get(u => u.Id == id);
+                return View(productVM);
+            }
+           
         }
 
         
         [HttpPost]
-        public IActionResult Create(ProductVM obj)
-        {
-            //Custom Validation
-            if(obj.Product.Title == obj.Product.ListPrice.ToString())
-            {
-                ModelState.AddModelError("Title", "The List Price cannot exactly match the Title.");
-            }
-            //Validation
-            if(ModelState.IsValid)
-            {
-                _unitOfWork.Product.Add(obj.Product);
-                _unitOfWork.Save();
-
-                TempData["success"] = "Product created successfully.";
-                return RedirectToAction("Index");
-            }
-
-            return View();
-        }
-
-        //EDIT
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Product? productFromDb = _unitOfWork.Product.Get( u => u.Id == id );
-            if(productFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(productFromDb);
-        }
-
-        [HttpPost]
-        public IActionResult Edit(Product obj)
+        public IActionResult Upsert(ProductVM productVM, IFormFile? file)
         {
             if(ModelState.IsValid)
             {
-                _unitOfWork.Product.Update(obj);
+                _unitOfWork.Product.Add(productVM.Product);
                 _unitOfWork.Save();
-                TempData["success"] = "Product updated successfully";
+                TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index");
+            } 
+            else
+            {
+                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+                return View(productVM);
             }
-            return View();
         }
+
+        ////EDIT @Deprecated
+        //public IActionResult Edit(int? id)
+        //{
+        //    if (id == null || id == 0)
+        //    {
+        //        return NotFound();
+        //    }
+        //    Product? productFromDb = _unitOfWork.Product.Get( u => u.Id == id );
+        //    if(productFromDb == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(productFromDb);
+        //}
+
+        //[HttpPost]
+        //public IActionResult Edit(Product obj)
+        //{
+        //    if(ModelState.IsValid)
+        //    {
+        //        _unitOfWork.Product.Update(obj);
+        //        _unitOfWork.Save();
+        //        TempData["success"] = "Product updated successfully";
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View();
+        //}
 
         //DELETE
         public IActionResult Delete(int? id)
