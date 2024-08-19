@@ -65,6 +65,18 @@ namespace HarisWeb.Areas.Admin.Controllers
                         //navigate to product path
                         string productPath = Path.Combine(wwwRootPath, @"images\product");
 
+                    /*Upade IMG; Delete Old One and Set New One*/
+                    if(!string.IsNullOrEmpty(productVM.Product.ImageUrl))
+                    {
+                        //delete the old image
+                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageUrl.Trim('\\'));
+                            
+                            if(System.IO.File.Exists(oldImagePath))
+                             {
+                                System.IO.File.Delete(oldImagePath);
+                             }
+                    }
+
                         using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
                         {
                             file.CopyTo(fileStream);
@@ -73,7 +85,16 @@ namespace HarisWeb.Areas.Admin.Controllers
                     productVM.Product.ImageUrl = @"\images\product\" + fileName;
                     }
 
-                _unitOfWork.Product.Add(productVM.Product);
+                    /*Check if we need to Add or Update the Img, we check the ID*/
+                    if(productVM.Product.Id == 0)
+                    {
+                        _unitOfWork.Product.Add(productVM.Product);
+                    }
+                    else
+                    {
+                        _unitOfWork.Product.Update(productVM.Product);
+                    } 
+       
                 _unitOfWork.Save();
                 TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index");
