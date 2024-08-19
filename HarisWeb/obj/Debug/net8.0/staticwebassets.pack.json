@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\product\\d72ee659-8c7c-4b6f-b5c9-6434a57ffcac.jpg"
     },
     {
+      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
