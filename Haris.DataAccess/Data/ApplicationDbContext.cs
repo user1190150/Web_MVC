@@ -59,9 +59,9 @@ namespace Haris.DataAccess.Data
              * zum ersten Mal gestartet wird.
              */
             modelBuilder.Entity<Category>().HasData(
-                new Category { Id = 1, Name = "KTM 1190 Adventure S", DisplayOrder = 2 },
-                new Category { Id = 2, Name = "BMW R 1200 GS Adventure", DisplayOrder = 1 },
-                new Category { Id = 3, Name = "Honda Africa Twin 1100", DisplayOrder = 3 }
+                new Category { Id = 1, Name = "Action", DisplayOrder = 1 },
+                new Category { Id = 2, Name = "SciFi", DisplayOrder = 2 },
+                new Category { Id = 3, Name = "History", DisplayOrder = 3 }
                 );
 
             modelBuilder.Entity<Product>().HasData(
