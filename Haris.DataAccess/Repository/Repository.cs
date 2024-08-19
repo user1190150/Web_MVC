@@ -22,7 +22,7 @@ namespace Haris.DataAccess.Repository
         {
             _db = db;   
             this.dbSet = _db.Set<T>();
-
+            /*Using .Include here*/
             _db.Products.Include(u => u.Category).Include(u => u.CategoryId);
         }
         public void Add(T entity)
@@ -34,6 +34,7 @@ namespace Haris.DataAccess.Repository
         {
             IQueryable<T> query = dbSet;
             query = query.Where(filter);
+            /*Using .Include Konzept here*/
             if (!string.IsNullOrEmpty(includeProperties))
             {
                 foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
@@ -47,7 +48,8 @@ namespace Haris.DataAccess.Repository
         public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
-            if(!string.IsNullOrEmpty(includeProperties))
+            /*Using .Include Konzept here*/
+            if (!string.IsNullOrEmpty(includeProperties))
             {
                 foreach(var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {

@@ -21,6 +21,7 @@ namespace HarisWeb.Areas.Admin.Controllers
         //GET the List of Products
         public IActionResult Index()
         {
+            /*Using .Include; includeProperties:"Category"*/
             List<Product> objProductList = _unitOfWork.Product.GetAll(includeProperties:"Category").ToList();
             return View(objProductList);
         }
