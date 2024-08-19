@@ -12,9 +12,11 @@ namespace HarisWeb.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public ProductController(IUnitOfWork unitOfWork)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
             _unitOfWork = unitOfWork;
+            _webHostEnvironment = webHostEnvironment;
         }
         //GET the List of Products
         public IActionResult Index()
@@ -54,6 +56,24 @@ namespace HarisWeb.Areas.Admin.Controllers
         {
             if(ModelState.IsValid)
             {
+                    //access to wwwroot file
+                    string wwwRootPath = _webHostEnvironment.WebRootPath;
+                    if(file != null)
+                    {
+                        //random name for the file
+                        string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                        //navigate to product path
+                        string productPath = Path.Combine(wwwRootPath, @"images/product");
+
+                        using (var fileStream = new FileStream(Path.Combine(productPath, fileName), 
+                        FileMode.Create))
+                        {
+                            file.CopyTo(fileStream);
+                        }
+
+                    productVM.Product.ImageUrl = @"images\product\" + fileName;
+                    }
+
                 _unitOfWork.Product.Add(productVM.Product);
                 _unitOfWork.Save();
                 TempData["success"] = "Product created successfully";
