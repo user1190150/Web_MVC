@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Rit8uoKBqg1gvLBgqH52aKn+EyUQlclzWx0BZmQhf5w=",
+  "Hash": "sLSt05e1bMDJEXcYp6m/NnYe88C78Td95VePVi+TDso=",
   "Source": "HarisWeb",
   "BasePath": "_content/HarisWeb",
   "Mode": "Default",
@@ -188,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\85c49ae5-217c-4b70-a6aa-ae8266bcfdde.jpg"
     },
     {
-      "Identity": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\d72ee659-8c7c-4b6f-b5c9-6434a57ffcac.jpg",
+      "Identity": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\8be70e18-ae90-4213-9829-6527aa650948.jpg",
       "SourceId": "HarisWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\",
       "BasePath": "_content/HarisWeb",
-      "RelativePath": "images/product/d72ee659-8c7c-4b6f-b5c9-6434a57ffcac.jpg",
+      "RelativePath": "images/product/8be70e18-ae90-4213-9829-6527aa650948.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\d72ee659-8c7c-4b6f-b5c9-6434a57ffcac.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\8be70e18-ae90-4213-9829-6527aa650948.jpg"
     },
     {
       "Identity": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\js\\product.js",
