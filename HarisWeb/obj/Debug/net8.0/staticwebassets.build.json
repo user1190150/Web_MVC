@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FdIz5DXCRi3vvThIzilp0dmfgeJAGCXS6T9eSYBS2JQ=",
+  "Hash": "Rit8uoKBqg1gvLBgqH52aKn+EyUQlclzWx0BZmQhf5w=",
   "Source": "HarisWeb",
   "BasePath": "_content/HarisWeb",
   "Mode": "Default",
@@ -186,25 +186,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\85c49ae5-217c-4b70-a6aa-ae8266bcfdde.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\8d1f9979-a4f5-411a-b796-18668f1300df.jpg",
-      "SourceId": "HarisWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\",
-      "BasePath": "_content/HarisWeb",
-      "RelativePath": "images/product/8d1f9979-a4f5-411a-b796-18668f1300df.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\8d1f9979-a4f5-411a-b796-18668f1300df.jpg"
     },
     {
       "Identity": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\d72ee659-8c7c-4b6f-b5c9-6434a57ffcac.jpg",
