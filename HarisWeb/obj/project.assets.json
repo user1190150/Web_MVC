@@ -4867,6 +4867,19 @@
         "runtime": {
           "bin/placeholder/Haris.Models.dll": {}
         }
+      },
+      "Haris.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Haris.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Haris.Utility.dll": {}
+        }
       }
     }
   },
@@ -13879,11 +13892,17 @@
       "type": "project",
       "path": "../Haris.Models/Haris.Models.csproj",
       "msbuildProject": "../Haris.Models/Haris.Models.csproj"
+    },
+    "Haris.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Haris.Utility/Haris.Utility.csproj",
+      "msbuildProject": "../Haris.Utility/Haris.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Haris.DataAccess >= 1.0.0",
+      "Haris.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.8",
       "Microsoft.EntityFrameworkCore >= 9.0.0-preview.6.24327.4",
@@ -13928,6 +13947,9 @@
           "projectReferences": {
             "C:\\Users\\besir\\source\\repos\\Haris\\Haris.DataAccess\\Haris.DataAccess.csproj": {
               "projectPath": "C:\\Users\\besir\\source\\repos\\Haris\\Haris.DataAccess\\Haris.DataAccess.csproj"
+            },
+            "C:\\Users\\besir\\source\\repos\\Haris\\Haris.Utility\\Haris.Utility.csproj": {
+              "projectPath": "C:\\Users\\besir\\source\\repos\\Haris\\Haris.Utility\\Haris.Utility.csproj"
             }
           }
         }

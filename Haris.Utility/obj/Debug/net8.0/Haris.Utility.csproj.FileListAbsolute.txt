@@ -10,3 +10,4 @@ C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.d
 C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\refint\Haris.Utility.dll
 C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.pdb
 C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\ref\Haris.Utility.dll
+C:\Users\besir\source\repos\Haris\Haris.Utility\obj\Debug\net8.0\Haris.Utility.csproj.AssemblyReference.cache

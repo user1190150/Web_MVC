@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Haris.DataAccess\Haris.DataAccess.csproj" />
+    <ProjectReference Include="..\Haris.Utility\Haris.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -9,6 +9,7 @@
       "HarisWeb/1.0.0": {
         "dependencies": {
           "Haris.DataAccess": "1.0.0",
+          "Haris.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.AspNetCore.Identity.UI": "8.0.8",
           "Microsoft.EntityFrameworkCore": "9.0.0-preview.6.24327.4",
@@ -3116,6 +3117,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Haris.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.8"
+        },
+        "runtime": {
+          "Haris.Utility.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -5042,6 +5054,11 @@
       "sha512": ""
     },
     "Haris.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Haris.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
