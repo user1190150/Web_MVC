@@ -30,6 +30,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//add authentication before authorization
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
