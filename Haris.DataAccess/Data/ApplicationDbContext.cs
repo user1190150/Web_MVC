@@ -1,4 +1,5 @@
 ﻿using Haris.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Haris.DataAccess.Data
@@ -17,7 +18,7 @@ namespace Haris.DataAccess.Data
  * von Daten.
  */
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         /* Dependency Injection (DI): In ASP.NET Core wird der DbContext häufig über Dependency Injection (DI) verwaltet.
          * Der Konstruktor akzeptiert ein DbContextOptions<ApplicationDbContext>-Objekt, das alle Konfigurationsoptionen 
@@ -53,6 +54,9 @@ namespace Haris.DataAccess.Data
          */
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //required for Identity
+            base.OnModelCreating(modelBuilder);
+
             /* Die angegebenen Daten werden automatisch in die Tabelle eingefügt,
              * wenn die Datenbank erstellt oder aktualisiert wird. Dies ist nützlich, 
              * um sicherzustellen, dass bestimmte Grunddaten vorhanden sind, wenn die Anwendung 
