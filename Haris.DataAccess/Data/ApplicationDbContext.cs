@@ -1,4 +1,5 @@
 ﻿using Haris.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,7 +19,7 @@ namespace Haris.DataAccess.Data
  * von Daten.
  */
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         /* Dependency Injection (DI): In ASP.NET Core wird der DbContext häufig über Dependency Injection (DI) verwaltet.
          * Der Konstruktor akzeptiert ein DbContextOptions<ApplicationDbContext>-Objekt, das alle Konfigurationsoptionen 
