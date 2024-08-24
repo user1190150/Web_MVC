@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HarisWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b1a61a7ff01bd9a91f8f31770c87e5e3d5d4c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86134ba8d0abc7b98a9d611adbdaa1e21bc77246")]
 [assembly: System.Reflection.AssemblyProductAttribute("HarisWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HarisWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
