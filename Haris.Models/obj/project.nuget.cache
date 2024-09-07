@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aUFy/rpg7i0=",
+  "dgSpecHash": "O9O7qEqfxWc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\besir\\source\\repos\\Haris\\Haris.Models\\Haris.Models.csproj",
+  "projectFilePath": "C:\\Users\\besir\\source\\repos\\Web_MVC\\Haris.Models\\Haris.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\besir\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\besir\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

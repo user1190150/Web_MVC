@@ -1,275 +1,275 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HarisWeb.bundle.scp.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HarisWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\HarisWeb.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\08babe99-62ea-43fd-b030-070821217f7a.jpg",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\08babe99-62ea-43fd-b030-070821217f7a.jpg",
       "PackagePath": "staticwebassets\\images\\product\\08babe99-62ea-43fd-b030-070821217f7a.jpg"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\0f6ca93a-d38f-4965-98ce-3bb0624ea93f.jpg",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\0f6ca93a-d38f-4965-98ce-3bb0624ea93f.jpg",
       "PackagePath": "staticwebassets\\images\\product\\0f6ca93a-d38f-4965-98ce-3bb0624ea93f.jpg"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\2a3c2a8c-34ec-4d9c-b7d8-d6e147df6a9f.jpg",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\2a3c2a8c-34ec-4d9c-b7d8-d6e147df6a9f.jpg",
       "PackagePath": "staticwebassets\\images\\product\\2a3c2a8c-34ec-4d9c-b7d8-d6e147df6a9f.jpg"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\55b7236f-852d-4bba-a7c1-ca4dba910795.jpg",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\55b7236f-852d-4bba-a7c1-ca4dba910795.jpg",
       "PackagePath": "staticwebassets\\images\\product\\55b7236f-852d-4bba-a7c1-ca4dba910795.jpg"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\85c49ae5-217c-4b70-a6aa-ae8266bcfdde.jpg",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\85c49ae5-217c-4b70-a6aa-ae8266bcfdde.jpg",
       "PackagePath": "staticwebassets\\images\\product\\85c49ae5-217c-4b70-a6aa-ae8266bcfdde.jpg"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\images\\product\\8be70e18-ae90-4213-9829-6527aa650948.jpg",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\8be70e18-ae90-4213-9829-6527aa650948.jpg",
       "PackagePath": "staticwebassets\\images\\product\\8be70e18-ae90-4213-9829-6527aa650948.jpg"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\js\\product.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\besir\\source\\repos\\Haris\\HarisWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

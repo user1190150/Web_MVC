@@ -11,3 +11,16 @@ C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\refint\Haris.Mod
 C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\Haris.Models.pdb
 C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\ref\Haris.Models.dll
 C:\Users\besir\source\repos\Haris\Haris.Models\obj\Debug\net8.0\Haris.Models.csproj.AssemblyReference.cache
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\bin\Debug\net8.0\Haris.Models.deps.json
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\bin\Debug\net8.0\Haris.Models.dll
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\bin\Debug\net8.0\Haris.Models.pdb
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.csproj.AssemblyReference.cache
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.AssemblyInfoInputs.cache
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.AssemblyInfo.cs
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.csproj.CoreCompileInputs.cache
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.sourcelink.json
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.dll
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\refint\Haris.Models.dll
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\Haris.Models.pdb
+C:\Users\besir\source\repos\Web_MVC\Haris.Models\obj\Debug\net8.0\ref\Haris.Models.dll

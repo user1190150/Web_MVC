@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BfbrXAasVLQ=",
+  "dgSpecHash": "j9bvzqb72+I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\besir\\source\\repos\\Haris\\Haris.DataAccess\\Haris.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\besir\\source\\repos\\Web_MVC\\Haris.DataAccess\\Haris.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\besir\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\besir\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
