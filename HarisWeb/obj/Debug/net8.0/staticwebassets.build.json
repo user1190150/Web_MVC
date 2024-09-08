@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K/VMsdOnZkRLlBu43C+/xDF0w0rrbOaHVVSeXDdEM0E=",
+  "Hash": "xcvC3mGeT56hq6EmfPjgdPadepwUz2ajAkflW580ook=",
   "Source": "HarisWeb",
   "BasePath": "_content/HarisWeb",
   "Mode": "Default",
@@ -1345,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\8be70e18-ae90-4213-9829-6527aa650948.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\js\\company.js",
+      "SourceId": "HarisWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\",
+      "BasePath": "_content/HarisWeb",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
       "Identity": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\js\\product.js",

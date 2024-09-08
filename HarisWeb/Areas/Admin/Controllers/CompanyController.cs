@@ -11,11 +11,11 @@ using Haris.Utility;
 namespace HarisWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = SD.Role_Admin)]
+    //[Authorize(Roles = SD.Role_Admin)]
     public class CompanyController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+
         public CompanyController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;

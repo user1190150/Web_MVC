@@ -19,7 +19,7 @@ namespace Haris.DataAccess.Repository
 
         public void Update(Company obj)
         {
-            _db.Companies.Update(obj);
+            _db.Compmanies.Update(obj);
         }
     }
 }

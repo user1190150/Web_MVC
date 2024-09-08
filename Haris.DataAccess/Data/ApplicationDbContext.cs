@@ -47,7 +47,7 @@ namespace Haris.DataAccess.Data
          */
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Company> Companies { get; set; }
+        public DbSet<Company> Compmanies { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         /* OnModelCreating ist eine Methode zur Konfiguration des Datenmodells in 
@@ -69,6 +69,38 @@ namespace Haris.DataAccess.Data
                 new Category { Id = 1, Name = "Action", DisplayOrder = 1 },
                 new Category { Id = 2, Name = "SciFi", DisplayOrder = 2 },
                 new Category { Id = 3, Name = "History", DisplayOrder = 3 }
+                );
+
+            modelBuilder.Entity<Company>().HasData(
+                new Company 
+                { 
+                    Id = 1, Name = "TechSolution", 
+                    StreetAddress = "123 Tech St", 
+                    City = "Tech City", 
+                    PostalCode = "43000",
+                    State = "TC",
+                    PhoneNumber = "23123213"
+                },
+                new Company
+                {
+                    Id = 2,
+                    Name = "VividBooks",
+                    StreetAddress = "456 Book St",
+                    City = "Book City",
+                    PostalCode = "82320",
+                    State = "BC",
+                    PhoneNumber = "4121213"
+                },
+                new Company
+                {
+                    Id = 3,
+                    Name = "ReadersClub",
+                    StreetAddress = "789 Read St",
+                    City = "Reader City",
+                    PostalCode = "123000",
+                    State = "RC",
+                    PhoneNumber = "009823213"
+                }
                 );
 
             modelBuilder.Entity<Product>().HasData(
