@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Haris.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9b7ece0cb847794365d8daa967bd9ffeb7ae46c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8a42c046973663b37e73e3c28d6eeb412dce288")]
 [assembly: System.Reflection.AssemblyProductAttribute("Haris.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Haris.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
