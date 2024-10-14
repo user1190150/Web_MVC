@@ -20,7 +20,7 @@ namespace Haris.DataAccess.Repository.IRepository
     public interface IRepository<T> where T : class
     {
         //T - Category
-        IEnumerable<T> GetAll(string? includeProperties = null);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null);
 
         /* Sie hat die Aufgabe, ein einzelnes Objekt vom Typ T aus einer Sammlung oder Datenbank
          * zu holen, das einem bestimmten Filterkriterium entspricht. 

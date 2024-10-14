@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Haris.Models.ViewModels
 {
-    internal class ShoppingCartVM
+    public class ShoppingCartVM
     {
-        public IEnumerable<ShoppingCartVM> ShoppingCartList { get; set; }
+        public IEnumerable<ShoppingCart> ShoppingCartList { get; set; }
         public double OrderTotal { get; set; }
     }
 }
