@@ -50,6 +50,8 @@ namespace Haris.DataAccess.Data
         public DbSet<Company> Compmanies { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
 
         /* OnModelCreating ist eine Methode zur Konfiguration des Datenmodells in 
          * Entity Framework Core.
