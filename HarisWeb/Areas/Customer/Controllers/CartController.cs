@@ -128,8 +128,6 @@ namespace HarisWeb.Areas.Customer.Controllers
                 //TODO
             }
 
-            Console.WriteLine(ShoppingCartVM.OrderHeader.Id);
-
             return RedirectToAction(nameof(OrderConfirmation), new { id = ShoppingCartVM.OrderHeader.Id });
         }
 
