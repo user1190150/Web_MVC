@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\images\\product\\08babe99-62ea-43fd-b030-070821217f7a.jpg",
       "PackagePath": "staticwebassets\\images\\product\\08babe99-62ea-43fd-b030-070821217f7a.jpg"
     },
