@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.6.24327.4",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6",
+          "Stripe.net": "46.2.1"
         },
         "runtime": {
           "HarisWeb.dll": {}
@@ -2329,6 +2330,18 @@
           }
         }
       },
+      "Stripe.net/46.2.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Stripe.net.dll": {
+            "assemblyVersion": "46.2.1.0",
+            "fileVersion": "46.2.1.0"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -4448,6 +4461,13 @@
       "sha512": "sha512-PQ2Oq3yepLY4P7ll145P3xtx2bX8xF4PzaKPRpw9jZlKvfe4LE/saAV82inND9usn1XRpmxXk7Lal3MTI+6CNg==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.6",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512"
+    },
+    "Stripe.net/46.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lOtIJRi/5Ct6AvhDug1d+F4zLX4dFIaWiIqG7vQ3DVOiclF/UMSKd0s8jVevNLyKO0d7q1SdfZ43x2t4+9+VeA==",
+      "path": "stripe.net/46.2.1",
+      "hashPath": "stripe.net.46.2.1.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

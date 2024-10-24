@@ -652,3 +652,4 @@ C:\Users\besir\source\repos\Web_MVC\HarisWeb\obj\Debug\net8.0\refint\HarisWeb.dl
 C:\Users\besir\source\repos\Web_MVC\HarisWeb\obj\Debug\net8.0\HarisWeb.pdb
 C:\Users\besir\source\repos\Web_MVC\HarisWeb\obj\Debug\net8.0\HarisWeb.genruntimeconfig.cache
 C:\Users\besir\source\repos\Web_MVC\HarisWeb\obj\Debug\net8.0\ref\HarisWeb.dll
+C:\Users\besir\source\repos\Web_MVC\HarisWeb\bin\Debug\net8.0\Stripe.net.dll
