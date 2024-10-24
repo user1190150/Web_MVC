@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mmb1QOFvfSyt7+piPNoRiLpDLcHqvySRAeW1385D1Yk=",
+  "Hash": "tSumHe0B0ScgWsqRqu/RDYhLKKRZ3YQNep26Lkzg8ng=",
   "Source": "HarisWeb",
   "BasePath": "_content/HarisWeb",
   "Mode": "Default",
@@ -1516,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\js\\order.js",
+      "SourceId": "HarisWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\",
+      "BasePath": "_content/HarisWeb",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\besir\\source\\repos\\Web_MVC\\HarisWeb\\wwwroot\\js\\product.js",
